@@ -13,7 +13,7 @@ import "crypto/sha1"
 import "fmt"
 
 func main() {
-    s := "sha1 this string"
+    s := "My name is Nishant Sahoo"
 
     // The pattern for generating a hash is `sha1.New()`,
     // `sha1.Write(bytes)`, then `sha1.Sum([]byte{})`.
